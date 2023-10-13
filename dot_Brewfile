@@ -23,6 +23,8 @@ brew "bison"
 brew "glib"
 # Emacs dependency management
 brew "cask"
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi"
 # Cross-platform make
 brew "cmake"
 # Tool for exploring each layer in a docker image
