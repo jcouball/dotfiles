@@ -1,0 +1,8 @@
+.homefiles
+.ssh/id_*
+.ssh/authorized_keys
+.ssh/*_rsa
+.ssh/*_dsa
+.ssh/*.pub
+.ssh/known_hosts
+.ssh/sshca

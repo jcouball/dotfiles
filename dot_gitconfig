@@ -1,0 +1,22 @@
+[core]
+	pager = less -FRSX
+	editor = code -r -w
+	autocrlf = input
+
+[user]
+	email = jcouball@yahoo.com
+	name = James Couball
+
+[init]
+	defaultBranch = main
+
+[diff]
+	tool = vscode
+
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+[difftool]
+	prompt = false
+[alias]
+	lg = log -n 10 --pretty=oneline --graph

@@ -1,0 +1,9 @@
+# User specific environment and startup programs
+if [ -x /usr/libexec/path_helper ]; then
+    eval `/usr/libexec/path_helper -s`
+fi
+
+# export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/graalvm-ce-java19-22.3.0/Contents/Home"
+export PATH="/Library/Java/JavaVirtualMachines/graalvm-ce-java19-22.3.0/Contents/Home/bin:$PATH"
+

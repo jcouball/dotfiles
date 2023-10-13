@@ -1,0 +1,18 @@
+ForwardAgent yes
+KeepAlive yes
+ServerAliveInterval 60
+StrictHostKeyChecking no
+CASignatureAlgorithms +ssh-rsa
+# UseKeychain Yes
+
+Host *
+    User couballj
+    Protocol 2
+    StrictHostKeyChecking no
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_rsa
+
+# Fig ssh integration. Keep at the bottom of this file.
+Match all
+  Include ~/.fig/ssh

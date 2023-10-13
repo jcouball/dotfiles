@@ -1,0 +1,216 @@
+tap "adoptopenjdk/openjdk"
+tap "buo/cask-upgrade"
+tap "danvergara/tools"
+tap "graalvm/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/services"
+tap "noahgorstein/tap"
+# Automatic configure script builder
+brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# YAML Parser
+brew "libyaml"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
+# Parser generator
+brew "bison"
+# Core application library for C
+brew "glib"
+# Emacs dependency management
+brew "cask"
+# Cross-platform make
+brew "cmake"
+# Tool for exploring each layer in a docker image
+brew "dive"
+# Toolkit for image loading and pixel buffer manipulation
+brew "gdk-pixbuf"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Small git utilities
+brew "git-extras"
+# Trim your git remote tracking branches that are merged or gone
+brew "git-trim"
+# X.509 and CMS library
+brew "libksba"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Library access to GnuPG
+brew "gpgme"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Regular expressions library
+brew "oniguruma"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Portable Foreign Function Interface library
+brew "libffi"
+# Utility for directing compilation
+brew "make"
+# Mac App Store command-line interface
+brew "mas"
+# HTTP/2 C Library
+brew "nghttp2"
+# Development kit for the Java programming language
+brew "openjdk"
+# Persistent key-value database, with built-in net interface
+brew "redis", restart_service: true
+# Work with remote images registries
+brew "skopeo"
+# Command-line interface for SQLite
+brew "sqlite"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# JavaScript package manager
+brew "yarn"
+# High-performance, asynchronous messaging library
+brew "zeromq"
+# General-purpose lossless data-compression library
+brew "zlib"
+# Interactive client for PostgreSQL and MySQL
+brew "danvergara/tools/dblab"
+# a TUI playground to experiment and play with jq
+brew "noahgorstein/tap/jqp"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Renamer for files, music and photos
+cask "a-better-finder-rename"
+# Enable Windows-like alt-tab
+cask "alt-tab"
+# Menu bar icon organizer
+cask "bartender"
+# Tool to customize input devices and automate computer systems
+cask "bettertouchtool"
+# Tool to show live information about the batteries in various devices
+cask "coconutbattery"
+# Disk space visualizer
+cask "daisydisk"
+# Voice and text chat software
+cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Window previews and controls
+cask "dockmate"
+# Network drive and browser for cloud storage
+cask "expandrive"
+# Reimagine your terminal
+cask "fig"
+# Web browser
+cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
+cask "graalvm-ce-java19"
+# Sheet music editor software for guitar, bass, keyboards, drums and more
+cask "guitar-pro"
+# Menu bar application that displays the CPU speed limit due to thermal issues
+cask "hot"
+# iPhone management application
+cask "imazing"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Automatically ejects external drives
+cask "jettison"
+# Detailed information on every Apple product ever made
+cask "mactracker"
+# Track and update to the latest versions of installed software
+cask "macupdater"
+# Smart card libraries and utilities
+cask "opensc"
+# Team communication and collaboration software
+cask "slack"
+# Configurable document editor that supports Markdown
+cask "typora"
+# Open-source code editor
+cask "visual-studio-code"
+mas "1Password for Safari", id: 1569813296
+mas "Amphetamine", id: 937984704
+mas "Disk Speed Test", id: 425264550
+mas "Display Menu", id: 549083868
+mas "Forecast Bar", id: 982710545
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Key Codes", id: 414568915
+mas "Keynote", id: 409183694
+mas "Kindle Classic", id: 405399194
+mas "Menu Bar Controller for Sonos", id: 1357379892
+mas "Moom", id: 419330170
+mas "Newsify", id: 510153374
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pixelmator Pro", id: 1289583905
+mas "Prime Video", id: 545519333
+mas "Service Station", id: 1503136033
+mas "The Clock", id: 488764545
+mas "The Unarchiver", id: 425424353
+mas "Tonebridge Guitar Effects", id: 1263858588
+vscode "alexkrechik.cucumberautocomplete"
+vscode "bierner.markdown-mermaid"
+vscode "castwide.solargraph"
+vscode "connorshea.vscode-ruby-test-adapter"
+vscode "connorshea.vscode-test-explorer-status-bar"
+vscode "cyberbiont.vscode-open-in-typora"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "dlech.chmod"
+vscode "eamodio.gitlens"
+vscode "EditorConfig.EditorConfig"
+vscode "esbenp.prettier-vscode"
+vscode "formulahendry.code-runner"
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
+vscode "GitHub.copilot-labs"
+vscode "github.vscode-github-actions"
+vscode "GrapeCity.gc-excelviewer"
+vscode "hbenl.vscode-test-explorer"
+vscode "howardzuo.vscode-npm-dependency"
+vscode "joaompinto.vscode-graphviz"
+vscode "KoichiSasada.vscode-rdbg"
+vscode "leonidasIIV.google-sheets-equation-syntax-hightlighter"
+vscode "LoranKloeze.ruby-rubocop-revived"
+vscode "marclipovsky.string-manipulation"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-powertoys"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode-remote.vscode-remote-extensionpack"
+vscode "ms-vscode.makefile-tools"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-vscode.remote-server"
+vscode "ms-vscode.test-adapter-converter"
+vscode "nickdemayo.vscode-json-editor"
+vscode "ninoseki.vscode-gem-lens"
+vscode "rebornix.ruby"
+vscode "redhat.vscode-yaml"
+vscode "ritwickdey.LiveServer"
+vscode "statelyai.stately-vscode"
+vscode "stkb.rewrap"
+vscode "Tyriar.sort-lines"
+vscode "usernamehw.errorlens"
+vscode "vscode-icons-team.vscode-icons"
+vscode "wingrunr21.vscode-ruby"
+vscode "withfig.fig"
+vscode "yzhang.markdown-all-in-one"

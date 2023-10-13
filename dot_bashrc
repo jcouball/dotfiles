@@ -1,0 +1,37 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/bashrc.pre.bash" ]] && builtin source "$HOME/.fig/shell/bashrc.pre.bash"
+# .bashrc
+
+# Homebrew environment setup
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# User specific aliases and functions
+
+alias ll="ls -al"
+
+# Source global definitions
+[[ -s /etc/bashrc ]] && source /etc/bashrc
+
+export PS1="[\u] \W \$ "
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# HOMEFILES START
+function homefiles {
+  git --git-dir="${HOME}/.homefiles/" --work-tree="${HOME}" "$@"
+}
+function homefiles_init {
+  git init --bare "${HOME}/.homefiles"
+}
+function homefiles_add_files {
+  for file in "$@"; do
+    [ -f "${HOME}/${file}" ] && (echo "Adding: ${HOME}/${file}"; homefiles add "${HOME}/${file}")
+  done
+  echo "Done adding"
+}
+# HOMEFILES END
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/bashrc.post.bash" ]] && builtin source "$HOME/.fig/shell/bashrc.post.bash"
