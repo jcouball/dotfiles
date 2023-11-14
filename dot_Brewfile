@@ -59,6 +59,8 @@ brew "oniguruma"
 brew "jq"
 # Portable Foreign Function Interface library
 brew "libffi"
+# Postgres C API library
+brew "libpq"
 # Utility for directing compilation
 brew "make"
 # Mac App Store command-line interface
@@ -67,6 +69,8 @@ brew "mas"
 brew "nghttp2"
 # Development kit for the Java programming language
 brew "openjdk"
+# Object-relational database system
+brew "postgresql@16", restart_service: true
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
 # Work with remote images registries
