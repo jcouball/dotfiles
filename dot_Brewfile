@@ -158,6 +158,7 @@ mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
 mas "Service Station", id: 1503136033
+mas "Speedtest", id: 1153157709
 mas "The Clock", id: 488764545
 mas "The Unarchiver", id: 425424353
 mas "Tonebridge Guitar Effects", id: 1263858588
@@ -205,14 +206,13 @@ vscode "ms-vscode.remote-server"
 vscode "ms-vscode.test-adapter-converter"
 vscode "nickdemayo.vscode-json-editor"
 vscode "ninoseki.vscode-gem-lens"
-vscode "rebornix.ruby"
 vscode "redhat.vscode-yaml"
 vscode "ritwickdey.LiveServer"
+vscode "Shopify.ruby-lsp"
 vscode "statelyai.stately-vscode"
 vscode "stkb.rewrap"
 vscode "Tyriar.sort-lines"
 vscode "usernamehw.errorlens"
 vscode "vscode-icons-team.vscode-icons"
-vscode "wingrunr21.vscode-ruby"
 vscode "withfig.fig"
 vscode "yzhang.markdown-all-in-one"
