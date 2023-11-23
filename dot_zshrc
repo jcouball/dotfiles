@@ -112,21 +112,6 @@ prompt_dir() {
   prompt_segment blue $CURRENT_FG '%1~'
 }
 
-# HOMEFILES START
-function homefiles {
-  git --git-dir="${HOME}/.homefiles/" --work-tree="${HOME}" "$@"
-}
-function homefiles_init {
-  git init --bare "${HOME}/.homefiles"
-}
-function homefiles_add_files {
-  for file in "$@"; do
-    [ -f "${HOME}/${file}" ] && (echo "Adding: ${HOME}/${file}"; homefiles add "${HOME}/${file}")
-  done
-  echo "Done adding"
-}
-# HOMEFILES END
-
 # Set the SDKROOT for building TruffleRuby
 export SDKROOT=$(xcrun --show-sdk-path)
 
