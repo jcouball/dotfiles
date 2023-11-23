@@ -169,6 +169,7 @@ mas "Tonebridge Guitar Effects", id: 1263858588
 vscode "alexkrechik.cucumberautocomplete"
 vscode "bierner.markdown-mermaid"
 vscode "castwide.solargraph"
+vscode "ckolkman.vscode-postgres"
 vscode "connorshea.vscode-ruby-test-adapter"
 vscode "connorshea.vscode-test-explorer-status-bar"
 vscode "cyberbiont.vscode-open-in-typora"
