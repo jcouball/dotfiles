@@ -117,6 +117,8 @@ cask "dockmate"
 cask "expandrive"
 # Reimagine your terminal
 cask "fig"
+# Superfamily of fonts for code
+cask "font-monaspace"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
