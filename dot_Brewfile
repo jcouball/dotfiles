@@ -90,7 +90,7 @@ brew "tree"
 # Vulnerability scanner for container images, file systems, and Git repos
 brew "trivy"
 # Find and verify credentials
-brew "trufflehog", link: false
+brew "trufflehog"
 # Internet file retriever
 brew "wget"
 # Linter for YAML files
