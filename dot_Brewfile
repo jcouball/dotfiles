@@ -21,6 +21,8 @@ brew "openssl@3"
 brew "asdf"
 # Parser generator
 brew "bison"
+# Command-line interface for SQLite
+brew "sqlite"
 # Core application library for C
 brew "glib"
 # Emacs dependency management
@@ -79,8 +81,6 @@ brew "osv-scanner"
 brew "postgresql@16"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
-# Command-line interface for SQLite
-brew "sqlite"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
 # Work with remote images registries
@@ -182,6 +182,7 @@ mas "The Clock", id: 488764545
 mas "The Unarchiver", id: 425424353
 mas "Tonebridge Guitar Effects", id: 1263858588
 vscode "alexkrechik.cucumberautocomplete"
+vscode "asciidoctor.asciidoctor-vscode"
 vscode "bierner.markdown-mermaid"
 vscode "castwide.solargraph"
 vscode "ckolkman.vscode-postgres"
