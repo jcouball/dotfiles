@@ -119,6 +119,8 @@ cask "bartender"
 cask "bettertouchtool"
 # Tool to show live information about the batteries in various devices
 cask "coconutbattery"
+# AI-powered productivity tool for the command-line
+cask "codewhisperer"
 # Disk space visualiser
 cask "daisydisk"
 # Voice and text chat software
@@ -129,8 +131,6 @@ cask "docker"
 cask "dockmate"
 # Network drive and browser for cloud storage
 cask "expandrive"
-# Reimagine your terminal
-cask "fig"
 # Superfamily of fonts for code
 cask "font-monaspace"
 # Web browser
@@ -182,6 +182,7 @@ mas "The Clock", id: 488764545
 mas "The Unarchiver", id: 425424353
 mas "Tonebridge Guitar Effects", id: 1263858588
 vscode "alexkrechik.cucumberautocomplete"
+vscode "amazonwebservices.codewhisperer-for-command-line-companion"
 vscode "asciidoctor.asciidoctor-vscode"
 vscode "bierner.markdown-mermaid"
 vscode "castwide.solargraph"
@@ -236,5 +237,4 @@ vscode "stkb.rewrap"
 vscode "tyriar.sort-lines"
 vscode "usernamehw.errorlens"
 vscode "vscode-icons-team.vscode-icons"
-vscode "withfig.fig"
 vscode "yzhang.markdown-all-in-one"
