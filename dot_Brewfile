@@ -111,14 +111,14 @@ cask "1password-cli"
 cask "a-better-finder-rename"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# AI-powered productivity tool for the command-line
+cask "amazon-q"
 # Menu bar icon organiser
 cask "bartender"
 # Tool to customise input devices and automate computer systems
 cask "bettertouchtool"
 # Tool to show live information about the batteries in various devices
 cask "coconutbattery"
-# AI-powered productivity tool for the command-line
-cask "codewhisperer"
 # Disk space visualiser
 cask "daisydisk"
 # Voice and text chat software
@@ -212,7 +212,6 @@ vscode "marclipovsky.string-manipulation"
 vscode "mechatroner.rainbow-csv"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
-vscode "ms-python.isort"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-toolsai.jupyter"
@@ -230,7 +229,7 @@ vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-server"
 vscode "ms-vscode.test-adapter-converter"
 vscode "nickdemayo.vscode-json-editor"
-vscode "ninoseki.vscode-gem-lens"
+vscode "ninoseki.vscode-mogami"
 vscode "redhat.vscode-yaml"
 vscode "ritwickdey.liveserver"
 vscode "shopify.ruby-lsp"
