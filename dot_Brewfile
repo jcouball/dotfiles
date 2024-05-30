@@ -117,6 +117,8 @@ cask "amazon-q"
 cask "bartender"
 # Tool to customise input devices and automate computer systems
 cask "bettertouchtool"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Tool to show live information about the batteries in various devices
 cask "coconutbattery"
 # Disk space visualiser
