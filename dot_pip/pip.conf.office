@@ -1,5 +1,0 @@
-[global]
-index=https://edge.artifactory.ouroath.com:4443/artifactory/api/pypi/pypi-mirror/
-index_url=https://edge.artifactory.ouroath.com:4443/artifactory/api/pypi/pypi-mirror/simple
-trusted_host=edge.artifactory.ouroath.com
-timeout=120
