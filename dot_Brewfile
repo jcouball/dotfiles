@@ -71,6 +71,8 @@ brew "libffi"
 brew "libpq"
 # Utility for directing compilation
 brew "make"
+# Platform built on V8 to build network applications
+brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
 # Mac App Store command-line interface
@@ -131,7 +133,6 @@ cask "docker"
 cask "dockmate"
 # Network drive and browser for cloud storage
 cask "expandrive"
-# Superfamily of fonts for code
 cask "font-monaspace"
 # Web browser
 cask "google-chrome"
@@ -172,7 +173,6 @@ mas "iMovie", id: 408981434
 mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
-mas "Moom", id: 419330170
 mas "Newsify", id: 510153374
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -182,13 +182,11 @@ mas "Service Station", id: 1503136033
 mas "Speedtest", id: 1153157709
 mas "The Clock", id: 488764545
 mas "The Unarchiver", id: 425424353
-mas "Tonebridge Guitar Effects", id: 1263858588
 vscode "alexkrechik.cucumberautocomplete"
 vscode "amazonwebservices.codewhisperer-for-command-line-companion"
 vscode "andrejunges.handlebars"
 vscode "asciidoctor.asciidoctor-vscode"
 vscode "bierner.markdown-mermaid"
-vscode "castwide.solargraph"
 vscode "ckolkman.vscode-postgres"
 vscode "connorshea.vscode-ruby-test-adapter"
 vscode "connorshea.vscode-test-explorer-status-bar"
