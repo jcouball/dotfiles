@@ -2,17 +2,16 @@
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh"
 #!/bin/sh
 
-# Setting PATH for Python 3.9
-# The original version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
-export PATH
-
 # Initialize asdf in .zprofile (instead of .zshrc) so that asdf is available in
 # all shells, including non-interactive ones.
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Set PATH for python programs installed with pip
+PATH="$HOME/.local/bin:$PATH"
+export PATH
 
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zprofile.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zprofile.post.zsh"
