@@ -35,6 +35,8 @@ brew "chezmoi"
 brew "cmake"
 # Tool for exploring each layer in a docker image
 brew "dive"
+# Isolated development environments using Docker
+brew "docker-compose"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
 # GitHub command-line tool
