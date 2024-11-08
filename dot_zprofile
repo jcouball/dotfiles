@@ -13,5 +13,14 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 PATH="$HOME/.local/bin:$PATH"
 export PATH
 
+git() {
+  if [[ "$1" == "clone" ]]; then
+    shift  # Remove 'clone' from arguments
+    gitclone "$@"
+  else
+    command git "$@"
+  fi
+}
+
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zprofile.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zprofile.post.zsh"
