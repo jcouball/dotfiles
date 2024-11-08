@@ -53,6 +53,8 @@ brew "libksba"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Framework for layout and rendering of i18n text
