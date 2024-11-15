@@ -93,5 +93,7 @@
   "files.associations": {
     ".yardopts": "plaintext"
   },
-  "python.createEnvironment.trigger": "off"
+  "python.createEnvironment.trigger": "off",
+  "editor.suggest.preview": true,
+  "github.copilot.chat.codeGeneration.useInstructionFiles": false
 }
