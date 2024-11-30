@@ -101,5 +101,6 @@
   ],
   "foldOnOpen.targets": [
     "AllMarkerRegions"
-  ]
+  ],
+  "terminal.external.osxExec": "Warp.app"
 }
