@@ -95,5 +95,11 @@
   },
   "python.createEnvironment.trigger": "off",
   "editor.suggest.preview": true,
-  "github.copilot.chat.codeGeneration.useInstructionFiles": false
+  "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+  "foldOnOpen.enableFiles": [
+    "**/*.rb"
+  ],
+  "foldOnOpen.targets": [
+    "AllMarkerRegions"
+  ]
 }
