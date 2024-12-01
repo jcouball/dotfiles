@@ -119,6 +119,8 @@ cask "a-better-finder-rename"
 cask "alt-tab"
 # AI-powered productivity tool for the command-line
 cask "amazon-q"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Menu bar icon organiser
 cask "bartender"
 # Tool to customise input devices and automate computer systems
