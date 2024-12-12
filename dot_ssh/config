@@ -3,12 +3,15 @@ KeepAlive yes
 ServerAliveInterval 60
 StrictHostKeyChecking no
 CASignatureAlgorithms +ssh-rsa
-# UseKeychain Yes
 
-Host *
-    User couballj
-    Protocol 2
-    StrictHostKeyChecking no
-    AddKeysToAgent yes
-    UseKeychain yes
-    IdentityFile ~/.ssh/id_rsa
+Protocol 2
+AddKeysToAgent yes
+UseKeychain yes
+
+Host 192.168.1.20
+  User root
+  IdentityFile ~/.ssh/id_rsa_proxmox_admin
+
+Host 192.168.1.21 192.168.1.22 192.168.1.23 192.168.1.24 192.168.1.25 192.168.1.26 192.168.1.27 192.168.1.28
+  User root
+  IdentityFile ~/.ssh/id_rsa_blog_admin
