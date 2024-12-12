@@ -6,6 +6,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
+tap "minio/stable"
 tap "noahgorstein/tap"
 # Static checker for GitHub Actions workflow files
 brew "actionlint"
@@ -41,6 +42,12 @@ brew "docker-compose"
 brew "gdk-pixbuf"
 # GitHub command-line tool
 brew "gh"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Distributed revision control system
 brew "git"
 # Small git utilities
@@ -53,12 +60,6 @@ brew "libksba"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@76"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Framework for layout and rendering of i18n text
-brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
@@ -86,7 +87,7 @@ brew "nghttp2"
 # Development kit for the Java programming language
 brew "openjdk"
 # Object-relational database system
-brew "postgresql@17"
+brew "postgresql@17", restart_service: true
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Persistent key-value database, with built-in net interface
@@ -95,6 +96,8 @@ brew "redis", restart_service: true
 brew "skopeo"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Image processing library
+brew "vips"
 # Internet file retriever
 brew "wget"
 # Linter for YAML files
@@ -107,6 +110,8 @@ brew "zeromq"
 brew "zlib"
 # Interactive client for PostgreSQL and MySQL
 brew "danvergara/tools/dblab"
+# High Performance Object Storage compatible with Amazon S3 API
+brew "minio/stable/minio"
 # a TUI playground to experiment and play with jq
 brew "noahgorstein/tap/jqp"
 # Password manager that keeps all passwords secure behind one password
