@@ -15,3 +15,7 @@ Host 192.168.1.20
 Host 192.168.1.21 192.168.1.22 192.168.1.23 192.168.1.24 192.168.1.25 192.168.1.26 192.168.1.27 192.168.1.28
   User root
   IdentityFile ~/.ssh/id_rsa_blog_admin
+
+Host 192.168.1.29
+  User root
+  IdentityFile ~/.ssh/id_rsa_notes_admin
