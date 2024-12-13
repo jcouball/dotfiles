@@ -2,6 +2,7 @@ tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "danvergara/tools"
 tap "graalvm/tap"
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
@@ -110,6 +111,8 @@ brew "zeromq"
 brew "zlib"
 # Interactive client for PostgreSQL and MySQL
 brew "danvergara/tools/dblab"
+# Terraform
+brew "hashicorp/tap/terraform"
 # High Performance Object Storage compatible with Amazon S3 API
 brew "minio/stable/minio"
 # a TUI playground to experiment and play with jq
