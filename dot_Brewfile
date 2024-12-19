@@ -23,10 +23,12 @@ brew "libyaml"
 brew "openssl@3"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
-# Parser generator
-brew "bison"
 # Command-line interface for SQLite
 brew "sqlite"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Parser generator
+brew "bison"
 # Core application library for C
 brew "glib"
 # Emacs dependency management
@@ -216,6 +218,7 @@ vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "grapecity.gc-excelviewer"
+vscode "hashicorp.terraform"
 vscode "hbenl.vscode-test-explorer"
 vscode "howardzuo.vscode-npm-dependency"
 vscode "joaompinto.vscode-graphviz"
