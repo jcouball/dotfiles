@@ -20,3 +20,4 @@
 	prompt = false
 [alias]
 	lg = log -n 10 --pretty=oneline --graph
+	nuke = !git reset --hard && git clean -fdx
