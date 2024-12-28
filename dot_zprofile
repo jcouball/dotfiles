@@ -16,7 +16,7 @@ export PATH
 git() {
   if [[ "$1" == "clone" ]]; then
     shift  # Remove 'clone' from arguments
-    gitclone "$@"
+    git-clone "$@"
   else
     command git "$@"
   fi
