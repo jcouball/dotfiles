@@ -7,6 +7,10 @@
   "files.trimTrailingWhitespace": true,
   "editor.accessibilitySupport": "off",
   "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "[markdown]":{
+    "editor.tabSize": 4
+  },
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1",
     "CW_NEW_SESSION": "1",
@@ -103,5 +107,6 @@
     "AllMarkerRegions"
   ],
   "terminal.external.osxExec": "Warp.app",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "markdown.extension.list.indentationSize": "inherit"
 }
