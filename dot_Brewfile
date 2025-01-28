@@ -90,11 +90,11 @@ brew "nghttp2"
 # Development kit for the Java programming language
 brew "openjdk"
 # Object-relational database system
-brew "postgresql@17", restart_service: false
+brew "postgresql@17"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Persistent key-value database, with built-in net interface
-brew "redis", restart_service: false
+brew "redis"
 # Work with remote images registries
 brew "skopeo"
 # Display directories as trees (with optional color/HTML output)
