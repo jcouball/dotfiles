@@ -175,6 +175,8 @@ cask "silentknight"
 cask "silnite"
 # Team communication and collaboration software
 cask "slack"
+# Control your Sonos system
+cask "sonos"
 # Video game digital distribution service
 cask "steam"
 # Configurable document editor that supports Markdown
