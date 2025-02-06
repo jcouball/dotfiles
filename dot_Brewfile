@@ -11,18 +11,14 @@ tap "minio/stable"
 tap "noahgorstein/tap"
 # Static checker for GitHub Actions workflow files
 brew "actionlint"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
-# GNU File, Shell, and Text utilities
-brew "coreutils"
-# YAML Parser
-brew "libyaml"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
-# Extendable version manager with support for Ruby, Node.js, Erlang & more
-brew "asdf"
 # Command-line interface for SQLite
 brew "sqlite"
 # Official Amazon AWS command-line interface
@@ -31,6 +27,8 @@ brew "awscli"
 brew "bison"
 # Core application library for C
 brew "glib"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Emacs dependency management
 brew "cask"
 # Manage your dotfiles across multiple diverse machines, securely
@@ -77,6 +75,8 @@ brew "jq"
 brew "libffi"
 # Postgres C API library
 brew "libpq"
+# YAML Parser
+brew "libyaml"
 # Utility for directing compilation
 brew "make"
 # Platform built on V8 to build network applications
