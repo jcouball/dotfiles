@@ -43,8 +43,6 @@ brew "docker-compose"
 brew "gdk-pixbuf"
 # GitHub command-line tool
 brew "gh"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@76"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Framework for layout and rendering of i18n text
@@ -61,6 +59,8 @@ brew "libksba"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
@@ -129,8 +129,6 @@ cask "1password-cli"
 cask "a-better-finder-rename"
 # Enable Windows-like alt-tab
 cask "alt-tab"
-# AI-powered productivity tool for the command-line
-cask "amazon-q"
 # Memory training application
 cask "anki"
 # Tool to flash OS images to SD cards & USB drives
@@ -141,6 +139,8 @@ cask "bartender"
 cask "bettertouchtool"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Tool to show live information about the batteries in various devices
 cask "coconutbattery"
 # Disk space visualiser
@@ -209,7 +209,6 @@ mas "Speedtest", id: 1153157709
 mas "The Clock", id: 488764545
 mas "The Unarchiver", id: 425424353
 vscode "alexkrechik.cucumberautocomplete"
-vscode "amazonwebservices.codewhisperer-for-command-line-companion"
 vscode "andrejunges.handlebars"
 vscode "asciidoctor.asciidoctor-vscode"
 vscode "bierner.markdown-mermaid"
@@ -220,6 +219,7 @@ vscode "cyberbiont.vscode-open-in-typora"
 vscode "davidanson.vscode-markdownlint"
 vscode "dlech.chmod"
 vscode "eamodio.gitlens"
+vscode "earshinov.filter-lines"
 vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.code-runner"
