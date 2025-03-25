@@ -8,14 +8,14 @@
 # User specific environment and startup programs
 export PATH=$HOME/bin:$PATH
 
-git() {
-  if [[ "$1" == "clone" ]]; then
-    shift  # Remove 'clone' from arguments
-    git-clone "$@"
-  else
-    command git "$@"
-  fi
-}
+# git() {
+#   if [[ "$1" == "clone" ]]; then
+#     shift  # Remove 'clone' from arguments
+#     git-clone "$@"
+#   else
+#     command git "$@"
+#   fi
+# }
 
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/bash_profile.post.bash" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/bash_profile.post.bash"
