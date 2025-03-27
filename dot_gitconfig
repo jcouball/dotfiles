@@ -19,5 +19,5 @@
 [difftool]
 	prompt = false
 [alias]
-	lg = log -n 10 --pretty=oneline --graph
+	lg = log -n 10 --oneline --graph --decorate
 	nuke = !git reset --hard && git clean -fdx
