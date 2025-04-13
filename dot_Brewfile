@@ -31,6 +31,10 @@ brew "glib"
 brew "coreutils"
 # Emacs dependency management
 brew "cask"
+# YAML Parser
+brew "libyaml"
+# Prevent cloud misconfigurations during build-time for IaC tools
+brew "checkov"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # Cross-platform make
@@ -75,8 +79,6 @@ brew "jq"
 brew "libffi"
 # Postgres C API library
 brew "libpq"
-# YAML Parser
-brew "libyaml"
 # Utility for directing compilation
 brew "make"
 # Platform built on V8 to build network applications
@@ -191,7 +193,7 @@ cask "visual-studio-code"
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
-mas "Disk Speed Test", id: 425264550
+mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Display Menu", id: 549083868
 mas "Forecast Bar", id: 982710545
 mas "GarageBand", id: 682658836
@@ -218,6 +220,7 @@ vscode "connorshea.vscode-test-explorer-status-bar"
 vscode "cyberbiont.vscode-open-in-typora"
 vscode "davidanson.vscode-markdownlint"
 vscode "dlech.chmod"
+vscode "docker.docker"
 vscode "eamodio.gitlens"
 vscode "earshinov.filter-lines"
 vscode "editorconfig.editorconfig"
