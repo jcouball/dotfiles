@@ -26,7 +26,6 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "markdown.extension.toc.unorderedList.marker": "*",
   "markdown.extension.toc.levels": "2..6",
   "github.copilot.enable": {
     "*": true,
@@ -107,6 +106,5 @@
     "AllMarkerRegions"
   ],
   "terminal.external.osxExec": "Warp.app",
-  "security.workspace.trust.untrustedFiles": "open",
-  "markdown.extension.list.indentationSize": "inherit"
+  "security.workspace.trust.untrustedFiles": "open"
 }
