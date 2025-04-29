@@ -23,8 +23,14 @@ brew "openssl@3"
 brew "sqlite"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# GNU binary tools for native development
+brew "binutils"
 # Parser generator
 brew "bison"
+# Collection of portable C++ source libraries
+brew "boost"
 # Core application library for C
 brew "glib"
 # GNU File, Shell, and Text utilities
@@ -39,10 +45,20 @@ brew "checkov"
 brew "chezmoi"
 # Cross-platform make
 brew "cmake"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Isolated development environments using Docker
 brew "docker-compose"
+# Binary-decimal and decimal-binary routines for IEEE doubles
+brew "double-conversion"
+# Fast Lexical Analyzer, generates Scanners (tokenizers)
+brew "flex"
+# Open-source formatting library for C++
+brew "fmt"
+# GNU database manager
+brew "gdbm"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
 # GitHub command-line tool
@@ -57,6 +73,10 @@ brew "git"
 brew "git-extras"
 # Trim your git remote tracking branches that are merged or gone
 brew "git-trim"
+# Application-level logging library
+brew "glog"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
 # X.509 and CMS library
 brew "libksba"
 # GNU Pretty Good Privacy (PGP) package
@@ -201,6 +221,7 @@ mas "iMovie", id: 408981434
 mas "Key Codes", id: 414568915
 mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
+mas "Mactracker", id: 430255202
 mas "Newsify", id: 510153374
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -220,11 +241,13 @@ vscode "connorshea.vscode-test-explorer-status-bar"
 vscode "cyberbiont.vscode-open-in-typora"
 vscode "davidanson.vscode-markdownlint"
 vscode "dlech.chmod"
+vscode "dnicolson.binary-plist"
 vscode "docker.docker"
 vscode "eamodio.gitlens"
 vscode "earshinov.filter-lines"
 vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
+vscode "first-try-software.ruby-flog"
 vscode "formulahendry.code-runner"
 vscode "github.copilot"
 vscode "github.copilot-chat"
