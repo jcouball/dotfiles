@@ -5,6 +5,7 @@ tap "graalvm/tap"
 tap "hashicorp/tap"
 tap "minio/stable"
 tap "noahgorstein/tap"
+tap "romkatv/powerlevel10k"
 # Static checker for GitHub Actions workflow files
 brew "actionlint"
 # Zstandard is a real-time compression algorithm
@@ -113,6 +114,8 @@ brew "nghttp2"
 brew "openjdk"
 # Object-relational database system
 brew "postgresql@17", restart_service: :changed
+# Theme for zsh
+brew "powerlevel10k"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Persistent key-value database, with built-in net interface
