@@ -11,6 +11,8 @@ tap "minio/stable"
 tap "noahgorstein/tap"
 # Static checker for GitHub Actions workflow files
 brew "actionlint"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 # Automatic configure script builder
@@ -61,6 +63,8 @@ brew "fmt"
 brew "gdbm"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
+# Library for processing command-line flags
+brew "gflags"
 # GitHub command-line tool
 brew "gh"
 # OpenType text shaping engine
@@ -195,6 +199,8 @@ cask "mactracker"
 cask "macupdater"
 # Smart card libraries and utilities
 cask "opensc"
+# Tool for sending personal documents to Kindles from Macs
+cask "send-to-kindle"
 # Automatically checks computer's security
 cask "silentknight"
 # Checks EFI firmware and security data file updates
