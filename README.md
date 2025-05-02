@@ -1,16 +1,41 @@
-# My Configuration Files
+# My Mac Configuration
 
-Use [chezmoi](https://chezmoi.io) to manage dotfiles in this home directory.
+I use [Chezmoi](https://chezmoi.io) to manage my Mac's configuration and
+[Homebrew](https://brew.sh) to install software. This setup includes developer tools,
+shell customizations, and system preferences tailored for Apple Silicon Macs.
 
-These dotfiles are stored in the GitHub [jcouball/dotfiles](https://github.com/jcouball/dotfiles) repository.
+This configuration is stored in the GitHub
+[jcouball/dotfiles](https://github.com/jcouball/dotfiles) repository.
 
-## 🚀 Quick Start
+## Quick Start
 
-To bootstrap a new Apple Silicon Mac with this dotfiles setup, run:
+To provision a new, freshly installed Apple Silicon Mac run:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/jcouball/dotfiles_neuromancer/main/bootstrap.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/jcouball/dotfiles_neuromancer/main/provision.sh)"
 ```
 
-> ⚠️ **Caution**: This script will install [Homebrew](https://brew.sh), [Chezmoi](https://www.chezmoi.io), and initialize your system using the configuration in this repository.
-> Make sure to [review the `bootstrap.sh` script](https://github.com/jcouball/dotfiles_neuromancer/blob/main/bootstrap.sh) before executing it.
+There are no prerequisites other than the macOS operating system itself.
+
+> ⚠️ **Caution**
+>
+> Make sure to review the provisioning script
+> [provision.sh](https://github.com/jcouball/dotfiles_neuromancer/blob/main/provision.sh)
+> before running it. It makes system-level changes, installs developer tools, and
+> customizes your environment.
+
+## System Requirements
+
+Tested with the following:
+
+- Apple Silicon Mac (M1 or newer)
+- macOS Sequoia (15) or later
+- Internet connection
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.txt).
+
+## Contributing
+
+Feel free to fork this repository and adapt it to your own needs. If you spot something useful to upstream, I’m open to contributions.
