@@ -14,8 +14,15 @@ sudo scutil --set LocalHostName "$computer_name"
 # Make sure the user is signed into iCloud
 # --- Function to check Apple ID login status ---
 is_signed_in() {
+  local plist_file="$HOME/Library/Preferences/MobileMeAccounts.plist"
   local account_id
-  account_id=$(defaults read MobileMeAccounts 2>/dev/null | grep -E '"AccountID"\s*=\s*"[^"]+"' | awk -F'"' '{print $4}')
+
+  if [[ ! -f "$plist_file" ]]; then
+    return 1
+  fi
+
+  account_id=$(plutil -convert json -o - "$plist_file" 2>/dev/null | jq -r '.Accounts[0].AccountID // empty')
+
   [[ -n "$account_id" ]]
 }
 
@@ -28,11 +35,11 @@ fi
 
 # --- Wait silently until signed in ---
 while ! is_signed_in; do
-  sleep 5
-  echo -n "."
+  sleep 3
+  printf "%s"  "."
 done
 
-echo "✅ Apple ID is signed in. Continuing script..."
+echo "✅ Apple ID is signed in."
 
 # Verify that sudo credentials are available
 if ! sudo -v; then
