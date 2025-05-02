@@ -4,9 +4,14 @@ set -euo pipefail
 
 echo ">> Starting system bootstrap..."
 
-# Enter the computer name and set it
-echo ">> Enter the name for this computer:"
-read -r computer_name
+# Get the current computer name
+current_name=$(scutil --get ComputerName)
+
+# Prompt the user with the current name as the default
+read -r -p ">> Enter the name for this computer [$current_name]: " computer_name
+computer_name=${computer_name:-$current_name}
+
+# Set the new computer name
 sudo scutil --set ComputerName "$computer_name"
 sudo scutil --set HostName "$computer_name"
 sudo scutil --set LocalHostName "$computer_name"
