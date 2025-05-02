@@ -1,2 +1,4 @@
 **/*.plist.base
 bootstrap.sh
+LICENSE.txt
+provision.sh

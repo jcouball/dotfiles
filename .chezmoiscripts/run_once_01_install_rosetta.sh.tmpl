@@ -1,3 +1,8 @@
 #!/bin/bash
-echo ">> Install Rosetta 2..."
-sudo softwareupdate --install-rosetta
+
+if /usr/bin/pgrep oahd >/dev/null; then
+  echo ">> Rosetta 2 is already installed."
+else
+  echo ">> Install Rosetta 2..."
+  sudo softwareupdate --install-rosetta
+fi
