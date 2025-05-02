@@ -75,7 +75,7 @@ install_chezmoi() {
 apply_dotfiles() {
   if [ ! -d "$HOME/.local/share/chezmoi" ]; then
     echo ">> Initializing chezmoi from dotfiles repo..."
-    chezmoi init --apply https://github.com/jcouball/dotfiles_neuromancer
+    chezmoi init --apply https://github.com/jcouball/dotfiles
   else
     echo ">> chezmoi already initialized. Skipping apply."
   fi

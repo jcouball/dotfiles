@@ -12,7 +12,7 @@ This configuration is stored in the GitHub
 To provision a new, freshly installed Apple Silicon Mac run:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/jcouball/dotfiles_neuromancer/main/provision.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/jcouball/dotfiles/main/provision.sh)"
 ```
 
 There are no prerequisites other than the macOS operating system itself.
@@ -20,7 +20,7 @@ There are no prerequisites other than the macOS operating system itself.
 > ⚠️ **Caution**
 >
 > Make sure to review the provisioning script
-> [provision.sh](https://github.com/jcouball/dotfiles_neuromancer/blob/main/provision.sh)
+> [provision.sh](https://github.com/jcouball/dotfiles/blob/main/provision.sh)
 > before running it. It makes system-level changes, installs developer tools, and
 > customizes your environment.
 
