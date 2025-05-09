@@ -112,6 +112,8 @@ brew "mas"
 brew "nghttp2"
 # Development kit for the Java programming language
 brew "openjdk"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Object-relational database system
 brew "postgresql@17", restart_service: :changed
 # Theme for zsh
