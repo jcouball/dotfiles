@@ -16,12 +16,6 @@ brew "asdf"
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
-# Command-line interface for SQLite
-brew "sqlite"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # GNU binary tools for native development
@@ -32,18 +26,20 @@ brew "bison"
 brew "boost"
 # Core application library for C
 brew "glib"
-# GNU File, Shell, and Text utilities
-brew "coreutils"
-# Emacs dependency management
-brew "cask"
 # YAML Parser
 brew "libyaml"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Command-line interface for SQLite
+brew "sqlite"
 # Prevent cloud misconfigurations during build-time for IaC tools
 brew "checkov"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # Cross-platform make
 brew "cmake"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Tool for exploring each layer in a docker image
@@ -134,8 +130,6 @@ brew "vips"
 brew "wget"
 # Linter for YAML files
 brew "yamllint"
-# JavaScript package manager
-brew "yarn"
 # High-performance, asynchronous messaging library
 brew "zeromq"
 # General-purpose lossless data-compression library
@@ -156,8 +150,6 @@ cask "1password-cli"
 cask "a-better-finder-rename"
 # Enable Windows-like alt-tab
 cask "alt-tab"
-# Memory training application
-cask "anki"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Menu bar icon organiser
@@ -183,23 +175,16 @@ cask "expandrive"
 cask "font-monaspace"
 # Web browser
 cask "google-chrome"
-# Client for the Google Drive storage service
-cask "google-drive"
-cask "graalvm-ce-java19"
 # Sheet music editor software for guitar, bass, keyboards, drums and more
 cask "guitar-pro"
 # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # Automatically ejects external drives
 cask "jettison"
 # Detailed information on every Apple product ever made
 cask "mactracker"
 # Track and update to the latest versions of installed software
 cask "macupdater"
-# Smart card libraries and utilities
-cask "opensc"
 # Tool for sending personal documents to Kindles from Macs
 cask "send-to-kindle"
 # Automatically checks computer's security
@@ -210,8 +195,6 @@ cask "silnite"
 cask "slack"
 # Control your Sonos system
 cask "sonos"
-# Video game digital distribution service
-cask "steam"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Open-source code editor
@@ -225,18 +208,11 @@ mas "Amphetamine", id: 937984704
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Display Menu", id: 549083868
 mas "Forecast Bar", id: 982710545
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Key Codes", id: 414568915
-mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
 mas "Mactracker", id: 430255202
-mas "Newsify", id: 510153374
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
-mas "Service Station", id: 1503136033
 mas "Speedtest", id: 1153157709
 mas "The Clock", id: 488764545
 mas "The Unarchiver", id: 425424353
