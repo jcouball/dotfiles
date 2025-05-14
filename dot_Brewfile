@@ -3,6 +3,7 @@ tap "buo/cask-upgrade"
 tap "danvergara/tools"
 tap "graalvm/tap"
 tap "hashicorp/tap"
+tap "jcouball/tap"
 tap "minio/stable"
 tap "noahgorstein/tap"
 tap "romkatv/powerlevel10k"
@@ -138,6 +139,8 @@ brew "zlib"
 brew "danvergara/tools/dblab"
 # Terraform
 brew "hashicorp/tap/terraform"
+# A collection of personal command-line utilities by jcouball
+brew "jcouball/tap/scripts"
 # High Performance Object Storage compatible with Amazon S3 API
 brew "minio/stable/minio"
 # a TUI playground to experiment and play with jq
