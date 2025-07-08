@@ -49,8 +49,6 @@ brew "coreutils"
 brew "curl"
 # Tool for exploring each layer in a docker image
 brew "dive"
-# Isolated development environments using Docker
-brew "docker-compose"
 # Binary-decimal and decimal-binary routines for IEEE doubles
 brew "double-conversion"
 # Fast Lexical Analyzer, generates Scanners (tokenizers)
@@ -172,7 +170,7 @@ cask "daisydisk"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 # Window previews and controls
 cask "dockmate"
 # Network drive and browser for cloud storage
