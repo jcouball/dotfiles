@@ -63,10 +63,6 @@ brew "gdk-pixbuf"
 brew "gflags"
 # GitHub command-line tool
 brew "gh"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Framework for layout and rendering of i18n text
-brew "pango"
 # Small git utilities
 brew "git-extras"
 # Trim your git remote tracking branches that are merged or gone
@@ -81,6 +77,10 @@ brew "libksba"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
