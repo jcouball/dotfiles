@@ -87,8 +87,6 @@ brew "librsvg"
 brew "graphviz"
 # Improved top (interactive process viewer)
 brew "htop"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@76"
 # Regular expressions library
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
@@ -216,7 +214,6 @@ mas "Clic", id: 6451395577
 mas "Forecast Bar", id: 982710545
 mas "iMovie", id: 408981434
 mas "Kindle", id: 302584613
-mas "Mactracker", id: 430255202
 mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
 mas "Speedtest", id: 1153157709
@@ -256,6 +253,7 @@ vscode "ms-azuretools.vscode-containers"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.vscode-remote-extensionpack"
 vscode "ms-vscode.makefile-tools"
