@@ -27,6 +27,8 @@ brew "binutils"
 brew "bison"
 # Collection of portable C++ source libraries
 brew "boost"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
 # Core application library for C
 brew "glib"
 # YAML Parser
@@ -51,6 +53,8 @@ brew "curl"
 brew "dive"
 # Binary-decimal and decimal-binary routines for IEEE doubles
 brew "double-conversion"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
 # Fast Lexical Analyzer, generates Scanners (tokenizers)
 brew "flex"
 # Open-source formatting library for C++
