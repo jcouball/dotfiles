@@ -2,6 +2,7 @@
 	pager = less -FRSX
 	editor = code -r -w
 	autocrlf = input
+	excludesfile = /Users/james/.gitignore_global
 
 [user]
 	email = jcouball@yahoo.com
