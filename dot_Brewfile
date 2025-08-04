@@ -185,7 +185,7 @@ cask "hot"
 # Automatically ejects external drives
 cask "jettison"
 # Menu bar manager
-cask "jordanbaird-ice"
+cask "jordanbaird-ice@beta"
 # Display key code, unicode value and modifier keys state for any key combination
 cask "key-codes"
 # Detailed information on every Apple product ever made
