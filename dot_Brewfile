@@ -91,12 +91,16 @@ brew "pango"
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # Improved top (interactive process viewer)
 brew "htop"
 # Regular expressions library
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# TUI playground to experiment and play with jq
+brew "jqp"
 # Portable Foreign Function Interface library
 brew "libffi"
 # Postgres C API library
@@ -147,8 +151,6 @@ brew "hashicorp/tap/terraform"
 brew "jcouball/tap/scripts"
 # High Performance Object Storage compatible with Amazon S3 API
 brew "minio/stable/minio"
-# a TUI playground to experiment and play with jq
-brew "noahgorstein/tap/jqp"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -159,6 +161,8 @@ cask "a-better-finder-rename"
 cask "alt-tab"
 # Tool to customise input devices and automate computer systems
 cask "bettertouchtool"
+# E-books management software
+cask "calibre"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
@@ -175,19 +179,17 @@ cask "displays"
 cask "docker-desktop"
 # Window previews and controls
 cask "dockmate"
-# Network drive and browser for cloud storage
-cask "expandrive"
 cask "font-monaspace"
 # Web browser
 cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Sheet music editor software for guitar, bass, keyboards, drums and more
 cask "guitar-pro"
 # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
 # Automatically ejects external drives
 cask "jettison"
-# Menu bar manager
-cask "jordanbaird-ice@beta"
 # Display key code, unicode value and modifier keys state for any key combination
 cask "key-codes"
 # Detailed information on every Apple product ever made
@@ -245,6 +247,7 @@ vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "howardzuo.vscode-npm-dependency"
+vscode "koichisasada.vscode-rdbg"
 vscode "leonidasiiv.google-sheets-equation-syntax-hightlighter"
 vscode "marclipovsky.string-manipulation"
 vscode "mechatroner.rainbow-csv"
@@ -259,7 +262,6 @@ vscode "orta.vscode-jest"
 vscode "redhat.vscode-yaml"
 vscode "ritwickdey.liveserver"
 vscode "shopify.ruby-lsp"
-vscode "streetsidesoftware.code-spell-checker"
 vscode "timonwong.shellcheck"
 vscode "tyriar.sort-lines"
 vscode "usernamehw.errorlens"
