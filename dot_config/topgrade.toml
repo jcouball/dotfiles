@@ -1,0 +1,17 @@
+# I use Topgrade to manage overall system and core tools, not the dependencies for
+# individual software projects. This prevents a global update from accidentally
+# breaking a project that depends on specific package versions.
+
+[misc]
+# A list of steps to exclusively run. All other steps will be skipped
+only = [
+    "brew_formula",
+    "brew_cask",
+    "mas",
+    "system",
+    "asdf",
+    "shell",
+    "vscode",
+    "chezmoi",
+    "github_cli_extensions",
+]
