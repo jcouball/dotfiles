@@ -131,6 +131,8 @@ brew "redis"
 brew "skopeo"
 # Tool to impose load on and stress test a computer system
 brew "stress"
+# Upgrade all the things
+brew "topgrade"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Image processing library
