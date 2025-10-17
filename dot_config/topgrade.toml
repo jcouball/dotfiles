@@ -17,3 +17,17 @@ only = [
     "chezmoi",
     "github_cli_extensions",
 ]
+
+[brew]
+# Make brew upgrades applications (casks) that are normally skipped because
+# they update themselves.
+
+# This has some risks:
+#  * May fail or corrupt an application if it's updated while running
+#  * Can conflict with the app's built-in updater, causing redundant downloads or failures
+#  * Bypasses the app's native updater, potentially skipping important configuration migrations
+#  * Can cause Homebrew's version tracking to become out of sync with the actual app version
+#  * Can force abrupt application restarts, disrupting your workflow
+# However, while these risks are possible, they haven't impacted me yet.
+
+greedy_cask = true
