@@ -51,6 +51,8 @@ brew "cmake"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Database client every command-line junkie deserves
+brew "dblab"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Binary-decimal and decimal-binary routines for IEEE doubles
@@ -113,6 +115,8 @@ brew "node"
 brew "markdownlint-cli"
 # Mac App Store command-line interface
 brew "mas"
+# High Performance, Kubernetes Native Object Storage
+brew "minio"
 # HTTP/2 C Library
 brew "nghttp2"
 # Development kit for the Java programming language
@@ -125,6 +129,8 @@ brew "postgresql@17", restart_service: :changed
 brew "powerlevel10k"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
+# Tools for and transforming and inspecting PDF files
+brew "qpdf"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Work with remote images registries
@@ -145,14 +151,10 @@ brew "yamllint"
 brew "zeromq"
 # General-purpose lossless data-compression library
 brew "zlib"
-# Interactive client for PostgreSQL and MySQL
-brew "danvergara/tools/dblab"
 # Terraform
 brew "hashicorp/tap/terraform"
 # A collection of personal command-line utilities by jcouball
 brew "jcouball/tap/scripts"
-# High Performance Object Storage compatible with Amazon S3 API
-brew "minio/stable/minio"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
