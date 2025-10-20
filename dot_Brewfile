@@ -200,8 +200,6 @@ cask "key-codes"
 cask "mactracker"
 # Track and update to the latest versions of installed software
 cask "macupdater"
-# Spaced-repetition powered note-taking tool
-cask "remnote"
 # Tool for sending personal documents to Kindles from Macs
 cask "send-to-kindle"
 # Automatically checks computer's security
