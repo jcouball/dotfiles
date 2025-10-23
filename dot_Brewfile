@@ -51,8 +51,6 @@ brew "cmake"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Database client every command-line junkie deserves
-brew "dblab"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Binary-decimal and decimal-binary routines for IEEE doubles
@@ -151,6 +149,8 @@ brew "yamllint"
 brew "zeromq"
 # General-purpose lossless data-compression library
 brew "zlib"
+# Interactive client for PostgreSQL and MySQL
+brew "danvergara/tools/dblab"
 # Terraform
 brew "hashicorp/tap/terraform"
 # A collection of personal command-line utilities by jcouball
@@ -177,6 +177,8 @@ cask "coconutbattery"
 cask "daisydisk"
 # Voice and text chat software
 cask "discord"
+# Display control utility
+cask "display-pilot"
 # Monitor resolution and settings manager
 cask "displays"
 # App to build and share containerised applications and microservices
