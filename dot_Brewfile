@@ -1,6 +1,7 @@
 tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "danvergara/tools"
+tap "goreleaser/tap"
 tap "graalvm/tap"
 tap "hashicorp/tap"
 tap "jcouball/tap"
@@ -51,6 +52,8 @@ brew "cmake"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Database client every command-line junkie deserves
+brew "dblab"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Binary-decimal and decimal-binary routines for IEEE doubles
@@ -107,7 +110,7 @@ brew "libffi"
 brew "libpq"
 # Utility for directing compilation
 brew "make"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
@@ -149,8 +152,6 @@ brew "yamllint"
 brew "zeromq"
 # General-purpose lossless data-compression library
 brew "zlib"
-# Interactive client for PostgreSQL and MySQL
-brew "danvergara/tools/dblab"
 # Terraform
 brew "hashicorp/tap/terraform"
 # A collection of personal command-line utilities by jcouball
@@ -190,6 +191,8 @@ cask "font-monaspace"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Release engineering, simplified
+cask "goreleaser"
 # Sheet music editor software for guitar, bass, keyboards, drums and more
 cask "guitar-pro"
 # Menu bar application that displays the CPU speed limit due to thermal issues
@@ -226,6 +229,7 @@ mas "Clic", id: 6451395577
 mas "Forecast Bar", id: 982710545
 mas "iMovie", id: 408981434
 mas "Kindle", id: 302584613
+mas "PDFgear", id: 6469021132
 mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
 mas "Speedtest", id: 1153157709
@@ -250,6 +254,7 @@ vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
+vscode "golang.go"
 vscode "howardzuo.vscode-npm-dependency"
 vscode "koichisasada.vscode-rdbg"
 vscode "leonidasiiv.google-sheets-equation-syntax-hightlighter"
