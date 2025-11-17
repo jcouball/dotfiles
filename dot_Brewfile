@@ -215,6 +215,8 @@ cask "silnite"
 cask "slack"
 # Control your Sonos system
 cask "sonos"
+# Sync and backup service to Synology NAS drives
+cask "synology-drive"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Open-source code editor
