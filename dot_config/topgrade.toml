@@ -9,9 +9,7 @@ only = [
     "brew_cask",
     "mas",
     "system",
-    # Disable asdf update until after topgrade 16.0.4
-    # There is a fix for parsing asdf version on deck for the next release after 16.0.4
-    # "asdf",
+    "asdf", # upgrade asdf plugins
     "shell",
     "vscode",
     "chezmoi",
