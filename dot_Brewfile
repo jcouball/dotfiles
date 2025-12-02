@@ -1,6 +1,7 @@
 tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "danvergara/tools"
+tap "go-task/tap"
 tap "goreleaser/tap"
 tap "graalvm/tap"
 tap "hashicorp/tap"
@@ -152,6 +153,8 @@ brew "yamllint"
 brew "zeromq"
 # General-purpose lossless data-compression library
 brew "zlib"
+# Task runner / simpler Make alternative written in Go
+brew "go-task/tap/go-task"
 # Terraform
 brew "hashicorp/tap/terraform"
 # A collection of personal command-line utilities by jcouball
