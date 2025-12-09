@@ -165,8 +165,6 @@ brew "jcouball/tap/scripts"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
-# Renamer for files, music and photos
-cask "a-better-finder-rename"
 # Enable Windows-like alt-tab
 cask "alt-tab"
 # Tool to customise input devices and automate computer systems
