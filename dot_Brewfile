@@ -143,6 +143,8 @@ brew "stress"
 brew "topgrade"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Syntax-aware linter for prose
+brew "vale"
 # Image processing library
 brew "vips"
 # Internet file retriever
@@ -244,6 +246,7 @@ vscode "alexkrechik.cucumberautocomplete"
 vscode "andrejunges.handlebars"
 vscode "asciidoctor.asciidoctor-vscode"
 vscode "bierner.markdown-mermaid"
+vscode "chrischinchilla.vale-vscode"
 vscode "ckolkman.vscode-postgres"
 vscode "davidanson.vscode-markdownlint"
 vscode "dbaeumer.vscode-eslint"
