@@ -167,8 +167,6 @@ cask "1password"
 cask "1password-cli"
 # Enable Windows-like alt-tab
 cask "alt-tab"
-# Tool to customise input devices and automate computer systems
-cask "bettertouchtool"
 # E-books management software
 cask "calibre"
 # OpenAI's official ChatGPT desktop app
