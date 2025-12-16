@@ -200,6 +200,8 @@ cask "guitar-pro"
 cask "hot"
 # Automatically ejects external drives
 cask "jettison"
+# Open-source screen recorder built with web technology
+cask "kap"
 # Display key code, unicode value and modifier keys state for any key combination
 cask "key-codes"
 # Detailed information on every Apple product ever made
