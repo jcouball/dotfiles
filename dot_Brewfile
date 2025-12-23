@@ -173,6 +173,8 @@ cask "calibre"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Tool to show live information about the batteries in various devices
 cask "coconutbattery"
 # Disk space visualiser
@@ -244,7 +246,6 @@ vscode "alexkrechik.cucumberautocomplete"
 vscode "andrejunges.handlebars"
 vscode "asciidoctor.asciidoctor-vscode"
 vscode "bierner.markdown-mermaid"
-vscode "chrischinchilla.vale-vscode"
 vscode "ckolkman.vscode-postgres"
 vscode "connor4312.esbuild-problem-matchers"
 vscode "davidanson.vscode-markdownlint"
