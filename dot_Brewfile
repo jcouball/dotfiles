@@ -208,8 +208,6 @@ cask "kap"
 cask "key-codes"
 # Detailed information on every Apple product ever made
 cask "mactracker"
-# Track and update to the latest versions of installed software
-cask "macupdater"
 # Tool for sending personal documents to Kindles from Macs
 cask "send-to-kindle"
 # Automatically checks computer's security
