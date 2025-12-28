@@ -8,6 +8,11 @@
 # User specific environment and startup programs
 export PATH=$HOME/bin:$PATH
 
+# Load asdf if available
+if command -v asdf > /dev/null; then
+  . "$(brew --prefix asdf)/libexec/asdf.sh"
+fi
+
 # git() {
 #   if [[ "$1" == "clone" ]]; then
 #     shift  # Remove 'clone' from arguments
