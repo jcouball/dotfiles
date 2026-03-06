@@ -13,10 +13,10 @@ tap "romkatv/powerlevel10k"
 brew "shellcheck"
 # Static checker for GitHub Actions workflow files
 brew "actionlint"
+# Open-source formatting library for C++
+brew "fmt"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
-# Distributed revision control system
-brew "git"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 # Automatic configure script builder
@@ -49,6 +49,8 @@ brew "chezmoi"
 brew "cloc"
 # Cross-platform make
 brew "cmake"
+# CLI tool for Amazon ECS and AWS Fargate
+brew "copilot"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -63,8 +65,6 @@ brew "double-conversion"
 brew "fastfetch"
 # Fast Lexical Analyzer, generates Scanners (tokenizers)
 brew "flex"
-# Open-source formatting library for C++
-brew "fmt"
 # GNU database manager
 brew "gdbm"
 # Toolkit for image loading and pixel buffer manipulation
@@ -73,6 +73,8 @@ brew "gdk-pixbuf"
 brew "gflags"
 # GitHub command-line tool
 brew "gh"
+# Distributed revision control system
+brew "git"
 # Small git utilities
 brew "git-extras"
 # Trim your git remote tracking branches that are merged or gone
@@ -195,11 +197,13 @@ cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Release engineering, simplified
-cask "goreleaser"
+cask "goreleaser/tap/goreleaser"
 # Sheet music editor software for guitar, bass, keyboards, drums and more
 cask "guitar-pro"
 # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
+# iPhone management application
+cask "imazing"
 # Automatically ejects external drives
 cask "jettison"
 # Open-source screen recorder built with web technology
@@ -256,7 +260,6 @@ vscode "earshinov.filter-lines"
 vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
 vscode "first-try-software.ruby-flog"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
