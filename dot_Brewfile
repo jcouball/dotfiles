@@ -157,7 +157,7 @@ brew "yamllint"
 brew "zeromq"
 # General-purpose lossless data-compression library
 brew "zlib"
-# Task runner / simpler Make alternative written in Go
+# A fast, cross-platform build tool inspired by Make, designed for modern workflows.
 brew "go-task/tap/go-task"
 # Terraform
 brew "hashicorp/tap/terraform"
@@ -234,6 +234,7 @@ cask "warp"
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
 mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Brother P-touch Editor", id: 1453365242
 mas "Clic", id: 6451395577
 mas "Forecast Bar", id: 982710545
 mas "iMovie", id: 408981434
