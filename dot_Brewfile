@@ -73,6 +73,12 @@ brew "gdk-pixbuf"
 brew "gflags"
 # GitHub command-line tool
 brew "gh"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Distributed revision control system
 brew "git"
 # Small git utilities
@@ -89,10 +95,6 @@ brew "libksba"
 brew "gnupg"
 # Library access to GnuPG
 brew "gpgme"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Framework for layout and rendering of i18n text
-brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
@@ -101,6 +103,10 @@ brew "graphviz"
 brew "pkgconf"
 # Improved top (interactive process viewer)
 brew "htop"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Tools for and transforming and inspecting PDF files
+brew "qpdf"
 # Regular expressions library
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
@@ -123,18 +129,20 @@ brew "mas"
 brew "minio"
 # HTTP/2 C Library
 brew "nghttp2"
+# Adds an OCR text layer to scanned PDF files
+brew "ocrmypdf"
 # Development kit for the Java programming language
 brew "openjdk"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Object-relational database system
 brew "postgresql@17", restart_service: :changed
 # Theme for zsh
 brew "powerlevel10k"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
-# Tools for and transforming and inspecting PDF files
-brew "qpdf"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Work with remote images registries
@@ -224,6 +232,8 @@ cask "slack"
 cask "sonos"
 # Sync and backup service to Synology NAS drives
 cask "synology-drive"
+# Customizable email client
+cask "thunderbird"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Open-source code editor
@@ -283,6 +293,7 @@ vscode "redhat.vscode-yaml"
 vscode "ritwickdey.liveserver"
 vscode "shopify.ruby-lsp"
 vscode "timonwong.shellcheck"
+vscode "tomoki1207.pdf"
 vscode "tyriar.sort-lines"
 vscode "usernamehw.errorlens"
 vscode "vscode-icons-team.vscode-icons"
