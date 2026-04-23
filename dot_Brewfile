@@ -204,6 +204,8 @@ cask "font-monaspace"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Native desktop AI assistant from Google
+cask "google-gemini"
 # Release engineering, simplified
 cask "goreleaser/tap/goreleaser"
 # Sheet music editor software for guitar, bass, keyboards, drums and more
@@ -271,7 +273,6 @@ vscode "earshinov.filter-lines"
 vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
 vscode "first-try-software.ruby-flog"
-vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
