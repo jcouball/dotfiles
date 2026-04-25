@@ -11,11 +11,6 @@ export PATH="$HOME/bin:$PATH"
 # Setup Homebrew environment
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Load asdf if available
-if command -v asdf > /dev/null; then
-  . "$(brew --prefix asdf)/libexec/asdf.sh"
-fi
-
 # Load Cargo (Rust) environment if installed
 [[ -f "$HOME/.cargo/env" ]] && source "$HOME/.cargo/env"
 

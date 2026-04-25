@@ -9,8 +9,9 @@
 export PATH=$HOME/bin:$PATH
 
 # Load asdf if available
-if command -v asdf > /dev/null; then
-  . "$(brew --prefix asdf)/libexec/asdf.sh"
+if [[ -d "/opt/homebrew/opt/asdf/bin" ]]; then
+  export ASDF_DATA_DIR="$HOME/.asdf"
+  export PATH="/opt/homebrew/opt/asdf/bin:$ASDF_DATA_DIR/shims:$PATH"
 fi
 
 # git() {
@@ -25,4 +26,4 @@ fi
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/bash_profile.post.bash" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/bash_profile.post.bash"
 
-. "$HOME/.cargo/env"
+[[ -f "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"

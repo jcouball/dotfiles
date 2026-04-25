@@ -2,12 +2,15 @@
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh"
 #!/bin/sh
 
-# Initialize asdf in .zprofile (instead of .zshrc) so that asdf is available in
-# all shells, including non-interactive ones.
-export PATH="/Users/james/.asdf/shims:$PATH"
-
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Initialize asdf in .zprofile (instead of .zshrc) so that asdf is available in
+# all shells, including non-interactive ones.
+if [[ -d "/opt/homebrew/opt/asdf/bin" ]]; then
+  export ASDF_DATA_DIR="$HOME/.asdf"
+  export PATH="/opt/homebrew/opt/asdf/bin:$ASDF_DATA_DIR/shims:$PATH"
+fi
 
 # Set PATH for python programs installed with pip
 PATH="$HOME/.local/bin:$PATH"
@@ -24,5 +27,3 @@ export PATH
 
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zprofile.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zprofile.post.zsh"
-# Set PATH, MANPATH, etc., for Homebrew.
-eval "$(/opt/homebrew/bin/brew shellenv)"
