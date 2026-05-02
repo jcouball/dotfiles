@@ -49,8 +49,6 @@ brew "chezmoi"
 brew "cloc"
 # Cross-platform make
 brew "cmake"
-# CLI tool for Amazon ECS and AWS Fargate
-brew "copilot"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -271,7 +269,6 @@ vscode "earshinov.filter-lines"
 vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
 vscode "first-try-software.ruby-flog"
-vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
