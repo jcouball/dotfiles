@@ -241,6 +241,7 @@ cask "warp"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
+mas "Amphetamine", id: 937984704
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Brother P-touch Editor", id: 1453365242
 mas "Clic", id: 6451395577
@@ -268,7 +269,6 @@ vscode "earshinov.filter-lines"
 vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
 vscode "first-try-software.ruby-flog"
-vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
@@ -296,3 +296,5 @@ vscode "tyriar.sort-lines"
 vscode "usernamehw.errorlens"
 vscode "vscode-icons-team.vscode-icons"
 vscode "yzhang.markdown-all-in-one"
+npm "@vscode/vsce"
+npm "ovsx"
