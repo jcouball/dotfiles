@@ -257,7 +257,6 @@ mas "The Unarchiver", id: 425424353
 vscode "alexkrechik.cucumberautocomplete"
 vscode "andrejunges.handlebars"
 vscode "asciidoctor.asciidoctor-vscode"
-vscode "bierner.markdown-mermaid"
 vscode "ckolkman.vscode-postgres"
 vscode "connor4312.esbuild-problem-matchers"
 vscode "davidanson.vscode-markdownlint"
