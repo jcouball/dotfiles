@@ -124,6 +124,8 @@ brew "markdownlint-cli"
 brew "mas"
 # High Performance, Kubernetes Native Object Storage
 brew "minio"
+# Jq-like command-line tool for markdown processing
+brew "mq"
 # HTTP/2 C Library
 brew "nghttp2"
 # Adds an OCR text layer to scanned PDF files
