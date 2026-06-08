@@ -205,8 +205,6 @@ cask "google-drive"
 cask "google-gemini"
 # Release engineering, simplified
 cask "goreleaser/tap/goreleaser"
-# Sheet music editor software for guitar, bass, keyboards, drums and more
-cask "guitar-pro"
 # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
 # iPhone management application
@@ -219,8 +217,6 @@ cask "kap"
 cask "key-codes"
 # Detailed information on every Apple product ever made
 cask "mactracker"
-# Tool for sending personal documents to Kindles from Macs
-cask "send-to-kindle"
 # Automatically checks computer's security
 cask "silentknight"
 # Checks EFI firmware and security data file updates
