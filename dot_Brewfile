@@ -199,6 +199,8 @@ cask "docker-desktop"
 # Window previews and controls
 cask "dockmate"
 cask "font-monaspace"
+# Git client for simultaneous branches on top of your existing workflow
+cask "gitbutler"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
