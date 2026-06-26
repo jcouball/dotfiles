@@ -188,6 +188,8 @@ cask "claude"
 cask "claude-code"
 # Tool to show live information about the batteries in various devices
 cask "coconutbattery"
+# Brings the power of Copilot coding agent directly to your terminal
+cask "copilot-cli"
 # Disk space visualiser
 cask "daisydisk"
 # Voice and text chat software
@@ -201,6 +203,8 @@ cask "dockmate"
 cask "font-monaspace"
 # Git client for simultaneous branches on top of your existing workflow
 cask "gitbutler"
+# Native client for GitHub Copilot
+cask "github-copilot-app"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
