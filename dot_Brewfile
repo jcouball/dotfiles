@@ -117,7 +117,7 @@ brew "libpq"
 # Utility for directing compilation
 brew "make"
 # Open-source, cross-platform JavaScript runtime environment
-brew "node"
+brew "node", link: false
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
 # Mac App Store command-line interface
@@ -300,5 +300,3 @@ vscode "tyriar.sort-lines"
 vscode "usernamehw.errorlens"
 vscode "vscode-icons-team.vscode-icons"
 vscode "yzhang.markdown-all-in-one"
-npm "@vscode/vsce"
-npm "ovsx"
