@@ -212,7 +212,7 @@ cask "google-drive"
 # Native desktop AI assistant from Google
 cask "google-gemini"
 # Release engineering, simplified
-cask "goreleaser/tap/goreleaser"
+cask "goreleaser/tap/goreleaser", trusted: true
 # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
 # iPhone management application
